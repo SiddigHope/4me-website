@@ -1,0 +1,5 @@
+/* Icon.module.css */
+.coloredIcon {
+    filter: brightness(0) saturate(100%) invert(60%) sepia(78%) saturate(1814%) hue-rotate(331deg) brightness(103%) contrast(101%);
+  /* filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%); */
+}

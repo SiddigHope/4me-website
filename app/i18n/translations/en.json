@@ -1,0 +1,71 @@
+{
+  "navbar": {
+    "home": "Home",
+    "features": "Features",
+    "about": "About",
+    "partners": "Join Us",
+    "download": "Download App"
+  },
+  "hero": {
+    "title": "4ME - فورمي",
+    "subtitle": "4ME brings everything you need into one convenient platform. Whether you want to order from your favorite stores and restaurants, or easily book doctor appointments, 4ME makes it simple, fast, and hassle-free — all in one place."
+  },
+  "about": {
+    "title": "About the App",
+    "description": "Experience convenience at your fingertips. Our app brings together shopping, dining, and healthcare services in one seamless platform. Order from your favorite stores, enjoy restaurant deliveries, and schedule medical appointments with ease.",
+    "appointments": {
+      "title": "Easy Appointment Booking",
+      "description": "Take care of your health without the hassle. Easily book, track, and manage appointments with trusted doctors and healthcare providers — all in one place."
+    },
+    "shopping": {
+      "title": "Seamless Shopping Experience",
+      "description": "Browse a wide variety of stores and shop for everything you need — from daily essentials to special items. Enjoy a smooth checkout process and fast delivery straight to your door."
+    },
+    "restaurant": {
+      "title": "Delicious Dining Options",
+      "description": "Satisfy your cravings with meals from your favorite restaurants. Explore menus, customize your order, and get fresh food delivered quickly and reliably, anytime you need it."
+    }
+  },
+  "cta": {
+    "download": "Download App",
+    "appStore": "Download on App Store",
+    "playStore": "Get it on Google Play"
+  },
+  "footer": {
+    "privacy": "Privacy Policy",
+    "terms": "Terms & Conditions",
+    "support": "Contact Support",
+    "rights": "© 2024 4ME. All rights reserved.",
+    "download": "Download",
+    "follow": "Follow Us",
+    "appStore": "App Store",
+    "playStore": "Google Play",
+    "contact": "Contact",
+    "legal": "Legal"
+  },
+  "features":
+  {
+      "title": "What Makes Us Different?",
+      "description": "Discover the features that make 4ME your go-to app for integrated services.",
+      "f_fast": "Fast & Simple",
+      "f_fast_desc": "Get things done in just a few taps. From placing orders to booking appointments, 4ME is designed to be intuitive, smooth, and hassle-free",
+      "f_secure": "Secure & Private",
+      "f_secure_desc": "Your safety comes first. All your personal information and transactions are protected with advanced security measures, ensuring complete privacy.",
+      "f_sync": "Cross-Device Sync",
+      "f_sync_desc": "Stay connected anywhere. Access your account seamlessly from your phone, tablet, or computer — everything stays in sync across all devices.",
+      "f_personalized": "Personalized Experience",
+      "f_personalized_desc": "4ME adapts to you. Discover tailored recommendations, preferred stores, and customized options that make your everyday tasks faster and more relevant."
+  },
+  "partners": {
+    "riders": {
+      "title": "Join as a Rider",
+      "description": "Become a delivery captain with 4ME and enjoy flexible hours, competitive pay, and the opportunity to be your own boss. Sign up today and start earning!",
+      "download": "Download Rider App"
+    },
+    "stores": {
+      "title": "Partner Your Store",
+      "description": "Expand your reach by partnering with 4ME. Connect with more customers, increase your sales, and grow your business with our easy-to-use platform.",
+      "download":"Download Store App"
+    }
+  }
+}
