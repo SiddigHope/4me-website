@@ -1,23 +1,21 @@
 'use client'
 
-import { useDispatch, useSelector } from 'react-redux'
-import { setLanguage } from '../store/features/languageSlice'
-import { RootState } from '../store/store'
-import { useTranslation } from 'react-i18next'
-import { motion } from 'framer-motion'
-import images from '../../public/images'
+// import { useDispatch, useSelector } from 'react-redux'
+// import { setLanguage } from '../store/features/languageSlice'
+// import { RootState } from '../store/store'
+// import { useTranslation } from 'react-i18next'
 import Navbar from './Navbar'
 
 export default function Header() {
-  const dispatch = useDispatch()
-  const currentLanguage = useSelector((state: RootState) => state.language.currentLanguage)
-  const { i18n } = useTranslation()
+  // const dispatch = useDispatch()
+  // const currentLanguage = useSelector((state: RootState) => state.language.currentLanguage)
+  // const { i18n } = useTranslation()
 
-  const toggleLanguage = () => {
-    const newLang = currentLanguage === 'en' ? 'ar' : 'en'
-    dispatch(setLanguage(newLang))
-    i18n.changeLanguage(newLang)
-  }
+  // const toggleLanguage = () => {
+  //   const newLang = currentLanguage === 'en' ? 'ar' : 'en'
+  //   dispatch(setLanguage(newLang))
+  //   i18n.changeLanguage(newLang)
+  // }
 
   return (
     <header className="fixed w-full top-0 z-50 bg-white/80 backdrop-blur-md shadow-sm">

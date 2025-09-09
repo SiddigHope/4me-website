@@ -12,6 +12,10 @@ const nextConfig: NextConfig = {
     });
     return config;
   },
+  images: {
+    unoptimized: true,
+  },
+  output: "export",
 };
 
 export default nextConfig;

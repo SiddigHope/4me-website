@@ -1,12 +1,12 @@
 'use client'
 
-import Header from './components/Header'
+// import Header from './components/Header'
 import Hero from './components/Hero'
 import About from './components/About'
 import Footer from './components/Footer'
-import ValuePage from './value/page'
+import Values from './components/Values'
 import Partners from './components/Partners'
-import PartnersPage from './components/PartnersPage'
+// import PartnersPage from './components/PartnersPage'
 import Navbar from './components/Navbar'
 
 export default function Home() {
@@ -14,7 +14,7 @@ export default function Home() {
     <main className="min-h-screen">
       <Navbar />
       <Hero />
-      <ValuePage/>
+      <Values/>
       <About />
       <Partners/>
       <Footer />

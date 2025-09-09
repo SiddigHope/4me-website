@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import { useTranslation } from "next-i18next";
-import Image from "next/image";
 import { useAlert } from "./AlertProvider";
 export default function Partners() {
   const { t } = useTranslation();

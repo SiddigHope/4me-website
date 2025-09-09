@@ -1,9 +1,4 @@
 import { useTranslation } from 'next-i18next';
-import Sync from "../../../public/icons/sync.svg";
-import Fast from "../../../public/icons/fast.svg";
-import Secure from "../../../public/icons/secure.svg";
-import Personalize from "../../../public/icons/personalize.svg";
-
 import ValueFeature from './ValueFeature';
 
 const ValueSection = () => {

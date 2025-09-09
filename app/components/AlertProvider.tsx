@@ -1,7 +1,7 @@
 "use client";
 
 import { createContext, useContext, useState, useCallback, useEffect } from "react";
-import { Alert, AlertIcon, AlertTitle, AlertDescription, Box, Collapse } from "@chakra-ui/react";
+import { Alert, AlertIcon, AlertDescription, Box, Collapse } from "@chakra-ui/react";
 
 type AlertContextType = {
   showAlert: (message: string, status?: "info" | "warning" | "success" | "error", duration?: number) => void;

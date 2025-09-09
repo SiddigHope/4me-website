@@ -1,12 +1,11 @@
 import Image from 'next/image';
-import { JSX } from 'react';
 import styles from './icon.module.css';
 
 interface ValueFeatureProps {
   title: string;
   description: string;
 //   icon: JSX.Element;
-  icon: string | JSX.Element;
+  icon: string;
 }
 
 const ValueFeature = ({ title, description, icon }: ValueFeatureProps) => {

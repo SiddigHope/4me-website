@@ -40,10 +40,10 @@ export default function Footer() {
           >
             <h3 className="text-lg font-semibold">{t('footer.download')}</h3>
             <div className="space-y-2">
-              <button onClick={() => showAlert("asd","asd")} className="block text-gray-300 hover:text-white transition-colors">
+              <button onClick={() => showAlert("error","error")} className="block text-gray-300 hover:text-white transition-colors">
                 {t('footer.appStore')}
               </button>
-              <button onClick={() => showAlert("asd","asd")} className="block text-gray-300 hover:text-white transition-colors">
+              <button onClick={() => showAlert("error","error")} className="block text-gray-300 hover:text-white transition-colors">
                 {t('footer.playStore')}
               </button>
             </div>
@@ -61,7 +61,7 @@ export default function Footer() {
               {footerLinks.map((link, index) => (
                 <button
                   key={index}
-                  onClick={() => showAlert("asd","asd")}
+                  onClick={() => showAlert("error","error")}
                   // href={link.href}
                   className="block text-gray-300 hover:text-white transition-colors"
                 >
