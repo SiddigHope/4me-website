@@ -54,6 +54,11 @@ function LayoutContent({ children }: { children: React.ReactNode }) {
         <meta name="description" content="4me (فورمي) - تطبيق شامل للطلب من المطاعم والمتاجر، حجز مواعيد الأطباء، وانضم كسائق أو متجر. خدمة سريعة وسهلة في تطبيق واحد." />
         <meta name="keywords" content="فورمي, 4me, طلب طعام, توصيل طعام, تسوق عبر التطبيق, حجز موعد طبيب, تطبيق توصيل, انضم كسائق, متجر الكتروني, مطاعم قريبة, دليفري, خدمة التوصيل" />
         
+        {/* favicon */}
+        <link rel="icon" type="image/png" href="/favicon.png" sizes="any" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://4me.sa/" />
