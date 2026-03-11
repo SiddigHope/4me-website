@@ -31,7 +31,11 @@
     "appStore": "Download on App Store",
     "playStore": "Get it on Google Play",
     "androidLink":"https://play.google.com/store/apps/details?id=com.siddig.elna3eriaclientapp",
-    "iosLink":"https://testflight.apple.com/join/bJyVUbXM"
+    "iosLink":"https://testflight.apple.com/join/bJyVUbXM",
+    "deliveryAppLink":"https://play.google.com/store/apps/details?id=com.seddig.elna3eriaplatformdelivery",
+    "storeAppLink":"https://store.nairyah.com/store",
+    "privacyLink":"https://store.nairyah.com/privacy/privacy",
+    "termsLink":"https://store.nairyah.com/privacy/terms"
   },
   "footer": {
     "privacy": "Privacy Policy",

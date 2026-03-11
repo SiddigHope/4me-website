@@ -2,15 +2,15 @@
 
 import { useTranslation } from 'react-i18next'
 import { motion } from 'framer-motion'
-import { useAlert } from './AlertProvider'
+// import { useAlert } from './AlertProvider'
 
 export default function Footer() {
-  const showAlert = useAlert()
+  // const showAlert = useAlert()
   const { t } = useTranslation()
 
   const footerLinks = [
-    { text: t('footer.privacy'), href: '/privacy' },
-    { text: t('footer.terms'), href: '/terms' },
+    { text: t('footer.privacy'), href: t("cta.privacyLink") },
+    { text: t('footer.terms'), href: t("cta.termsLink") },
     { text: t('footer.support'), href: 'mailto:support@4me.sa' }
   ]
 
@@ -67,14 +67,15 @@ export default function Footer() {
             <h3 className="text-lg font-semibold">{t('footer.legal')}</h3>
             <div className="space-y-2">
               {footerLinks.map((link, index) => (
-                <button
+                <a
                   key={index}
-                  onClick={() => showAlert("error", "error")}
-                  // href={link.href}
+                  // onClick={() => showAlert("error", "error")}
+                  href={link.href}
+                  target="_blank"
                   className="block text-gray-300 hover:text-white transition-colors"
                 >
                   {link.text}
-                </button>
+                </a>
               ))}
             </div>
           </motion.div>
