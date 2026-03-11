@@ -6,12 +6,12 @@ import { useSelector } from 'react-redux'
 import { RootState } from '../store/store'
 import Image from 'next/image'
 import images from '../../public/images'
-import { useAlert } from './AlertProvider'
+// import { useAlert } from './AlertProvider'
 
 export default function Hero() {
   const direction = useSelector((state: RootState) => state.language.direction)
   const { t } = useTranslation()
-  const showAlert = useAlert()
+  // const showAlert = useAlert()
 
   return (
     <section
