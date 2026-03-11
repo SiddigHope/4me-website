@@ -38,20 +38,22 @@ export default function Hero() {
           {t("hero.subtitle")}
         </p>
         <div className="flex flex-col lg:flex-row gap-4 lg:items-center justify-center">
-          <button
-            // href="#"
-            onClick={() => showAlert("asd","error")}
+          <a
+            href={t("cta.iosLink")}
+            target='_blank'
+            // onClick={() => showAlert("asd","error")}
             className="inline-flex items-center justify-center px-8 py-3 rounded-full bg-[#203260] text-white hover:bg-[#2a4277] transition-colors"
           >
             {t("cta.appStore")}
-          </button>
-          <button
-            // href="#"
-            onClick={() => showAlert("asd","error")}
+          </a>
+          <a
+            href={t("cta.androidLink")}
+            target='_blank'
+            // onClick={() => showAlert("asd","error")}
             className="inline-flex items-center justify-center px-8 py-3 rounded-full bg-[#FF8242] text-white hover:bg-[#ff956b] transition-colors"
           >
             {t("cta.playStore")}
-          </button>
+          </a>
         </div>
       </motion.div>
 

@@ -40,12 +40,20 @@ export default function Footer() {
           >
             <h3 className="text-lg font-semibold">{t('footer.download')}</h3>
             <div className="space-y-2">
-              <button onClick={() => showAlert("error","error")} className="block text-gray-300 hover:text-white transition-colors">
+              <a
+                href={t("cta.iosLink")}
+                target="_blank"
+                // onClick={() => showAlert("error","error")} 
+                className="block text-gray-300 hover:text-white transition-colors">
                 {t('footer.appStore')}
-              </button>
-              <button onClick={() => showAlert("error","error")} className="block text-gray-300 hover:text-white transition-colors">
+              </a>
+              <a
+                href={t("cta.androidLink")}
+                target="_blank"
+                // onClick={() => showAlert("error","error")} 
+                className="block text-gray-300 hover:text-white transition-colors">
                 {t('footer.playStore')}
-              </button>
+              </a>
             </div>
           </motion.div>
 
@@ -61,7 +69,7 @@ export default function Footer() {
               {footerLinks.map((link, index) => (
                 <button
                   key={index}
-                  onClick={() => showAlert("error","error")}
+                  onClick={() => showAlert("error", "error")}
                   // href={link.href}
                   className="block text-gray-300 hover:text-white transition-colors"
                 >
@@ -80,7 +88,7 @@ export default function Footer() {
           >
             <h3 className="text-lg font-semibold">{t('footer.contact')}</h3>
             <div className="space-y-2 text-gray-300">
-              <p>support@4me.app</p>
+              <p>support@4me.sa</p>
               <p>+966 59-5995566</p>
             </div>
           </motion.div>

@@ -29,13 +29,15 @@
   "cta": {
     "download": "حمل التطبيق",
     "appStore": "حمل من متجر آبل",
-    "playStore": "احصل عليه من جوجل بلاي"
+    "playStore": "احصل عليه من جوجل بلاي",
+    "androidLink":"https://play.google.com/store/apps/details?id=com.siddig.elna3eriaclientapp",
+    "iosLink":"https://testflight.apple.com/join/bJyVUbXM"
   },
   "footer": {
     "privacy": "سياسة الخصوصية",
     "terms": "الشروط والأحكام",
     "support": "اتصل بالدعم",
-    "rights": "© 2024 4ME. جميع الحقوق محفوظة.",
+    "rights": "© 2026 4ME. جميع الحقوق محفوظة.",
     "download": "تحميل",
     "follow": "تابعنا",
     "appStore": "متجر آبل",

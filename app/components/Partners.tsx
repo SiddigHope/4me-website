@@ -15,10 +15,10 @@ export default function Partners() {
     buttonText: t("partners.riders.download"),
     btnColor: "bg-[#FF8242]",
     btnHoverColor: "hover:bg-[#ff956b]",
-    link: "#",
+    link: "https://play.google.com/store/apps/details?id=com.seddig.elna3eriaplatformdelivery",
     mockupImage: "/images/rider_app_mockup.png",
     overlayColor: "bg-[#203260]",
-    onClick : () => showAlert("New order received! 🚴‍♂️", "info"),
+    // onClick : () => showAlert("New order received! 🚴‍♂️", "info"),
   },
   {
     name: t("partners.stores.title"),
@@ -31,10 +31,10 @@ export default function Partners() {
     buttonText: t("partners.stores.download"),
     btnColor: "bg-[#203260]",
     btnHoverColor: "hover:bg-[#2a4277]",
-    link: "#",
+    link: "https://store.nairyah.com/store",
     mockupImage: "/images/store_app_mockup.png",
     overlayColor: "bg-[#ff956b]",
-    onClick : () => showAlert("New order received! 🚴‍♂️", "error"),
+    // onClick : () => showAlert("New order received! 🚴‍♂️", "error"),
   }]
 
   return (
@@ -73,12 +73,14 @@ export default function Partners() {
             className="relative z-10 max-w-3xl px-6"
           >
             <div className="flex justify-center">
-              <button
-                onClick={partner.onClick}
+              <a
+                // onClick={partner.onClick}
+                href={partner.link}
+                target="_blank"
                 className={`inline-flex items-center justify-center px-8 py-3 rounded-full ${partner.btnColor} text-white ${partner.btnHoverColor} transition-colors`}
               >
                 {partner.buttonText}
-              </button>
+              </a>
             </div>
           </motion.div>
           {/* Overlay */}

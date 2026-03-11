@@ -29,13 +29,15 @@
   "cta": {
     "download": "Download App",
     "appStore": "Download on App Store",
-    "playStore": "Get it on Google Play"
+    "playStore": "Get it on Google Play",
+    "androidLink":"https://play.google.com/store/apps/details?id=com.siddig.elna3eriaclientapp",
+    "iosLink":"https://testflight.apple.com/join/bJyVUbXM"
   },
   "footer": {
     "privacy": "Privacy Policy",
     "terms": "Terms & Conditions",
     "support": "Contact Support",
-    "rights": "© 2024 4ME. All rights reserved.",
+    "rights": "© 2026 4ME. All rights reserved.",
     "download": "Download",
     "follow": "Follow Us",
     "appStore": "App Store",
